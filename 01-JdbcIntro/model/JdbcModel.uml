@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_B7nV0NjSEea_NPhec-wgcg" name="RootElement">
+  <packagedElement xmi:type="uml:Component" xmi:id="_QfP-YNjSEea_NPhec-wgcg" name="Your APP">
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_YTEgANjSEea_NPhec-wgcg" client="_QfP-YNjSEea_NPhec-wgcg" supplier="_SAo4oNjSEea_NPhec-wgcg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_SAo4oNjSEea_NPhec-wgcg" name="JDBC API"/>
+  <packagedElement xmi:type="uml:Component" xmi:id="_iKvIsNjSEea_NPhec-wgcg" name="MariaDB driver" visibility="package">
+    <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_l2sdENjSEea_NPhec-wgcg" client="_iKvIsNjSEea_NPhec-wgcg" supplier="_SAo4oNjSEea_NPhec-wgcg" contract="_SAo4oNjSEea_NPhec-wgcg"/>
+  </packagedElement>
+</uml:Model>
