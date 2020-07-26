@@ -1,0 +1,7 @@
+Initialement le tuto est prévu pour MariaBD
+Il devra être adapté pour MySQL
+
+Driver MySQL utilisé
+mysql-connector-java-8.0.21.jar
+
+Fichier conf.properties adapté
